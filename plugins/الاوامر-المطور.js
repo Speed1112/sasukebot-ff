@@ -63,8 +63,8 @@ conn.sendMessage(m.chat, {
     }, { quoted: m });
 }; 
 handler.help = ['main']
-handler.tags = ['الاوامر', 'fun']
-handler.command = ['قسم-المطور] 
+handler.tags = ['وامر', 'fun'الا]
+handler.command = ['ساسكي8'] 
 
 export default handler
 function clockString(ms) {
