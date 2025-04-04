@@ -63,7 +63,7 @@ conn.sendMessage(m.chat, {
 }; 
 handler.help = ['main']
 handler.tags = ['الاوامر', 'fun']
-handler.command = ['قسم-الصور'] 
+handler.command = ['ساسكي6'] 
 
 export default handler
 function clockString(ms) {
