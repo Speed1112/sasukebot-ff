@@ -9,7 +9,7 @@ import moment from 'moment-timezone'
 
 //---------[ Añada los numeros a ser Propietario/a ]---------
 
-global.owner = [['5201153573240', '乡kặkặśĥí乡', true], ['201153573240'], ['201153573240'], ['201153573240'], ['201153573240'], ['201153573240'], ['201153573240'], ['5492266613038']]
+global.owner = [['201153573240', '乡kặkặśĥí乡', true], ['201153573240'], ['201153573240'], ['201153573240'], ['201153573240'], ['201153573240'], ['201153573240'], ['5492266613038']]
 global.mods = []
 global.prems = []
 
@@ -84,8 +84,8 @@ global.author = 'elrebelde21'
 
 //------------[ Versión | Nombre | cuentas ]------------
 
-global.wm = '𝐋𝐨𝐥𝐢𝐁𝐨𝐭-𝐌𝐃' 
-global.botname = '𝙇𝙤𝙡𝙞𝘽𝙤𝙩-𝙈𝘿'
+global.wm = '𝑺𝑨𝑺𝑼𝑲𝑬 𝑩𝑶𝑻' 
+global.botname = '𝑺𝑨𝑺𝑼𝑲𝑬 𝑩𝑶𝑻'
 global.vs = '1.9.5'
 global.yt = 'https://www.youtube.com/@elrebelde.21'
 global.tiktok = 'https://www.tiktok.com/@elrebelde.21'
