@@ -13,7 +13,7 @@ const { name, author } = require(join(__dirname, './package.json'))
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
  
-say('LoliBot-MD', {
+say('BY:KAKASHI', {
 font: 'chrome',
 align: 'center',
 gradient: ['red', 'magenta']})
