@@ -427,14 +427,16 @@ conn.ev.off('connection.update', conn.connectionUpdate);
 conn.ev.off('creds.update', conn.credsUpdate);
 }
 
-conn.welcome = 'HOLAA!! @user ¿COMO ESTAS?😃\n\n『Bienvenido A *@subject*』\n\nUn gusto conocerte amig@ 🤗\n\n_Recuerda leer las reglas del grupo para no tener ningun problema 🧐_\n\n*Solo disfrutar de este grupo y divertite 🥳*`'
-conn.bye = 'Bueno, se fue @user 👋\n\nQue dios lo bendiga 😎`'
-conn.spromote = 'Hey @user ya forma parte de staff 👑'
-conn.sdemote = 'jajaja @user ya no eres admins'
-conn.sDesc = 'La descripción ha sido cambiada a \n@desc'
-conn.sSubject = 'El nombre del grupo ha sido cambiado a \n@group'
-conn.sIcon = 'El icono del grupo ha sido cambiado'
-conn.sRevoke = 'El enlace del grupo ha sido cambiado a \n@revoke'
+conn.welcome = 'مرحباً!! @user كيف حالك؟ 😃\n\n『أهلاً بك في *@subject*』\n\nسعداء بمعرفتك يا صديقي 🤗\n\n_تأكد من قراءة قوانين المجموعة حتى لا تواجه مشاكل 🧐_\n\n*استمتع فقط بهذه المجموعة وامرح 🥳*'
+  
+conn.bye = 'حسنًا، غادر @user 👋\n\nالله يوفقه 😎'
+conn.spromote = 'هيه @user أصبح الآن من طاقم الإدارة 👑'
+conn.sdemote = 'هههه @user لم تعد مشرفًا بعد الآن'
+conn.sDesc = 'تم تغيير وصف المجموعة إلى:\n@desc'
+conn.sSubject = 'تم تغيير اسم المجموعة إلى:\n@group'
+conn.sIcon = 'تم تغيير صورة المجموعة'
+conn.sRevoke = 'تم تغيير رابط المجموعة إلى:\n@revoke'
+
 conn.handler = handler.handler.bind(global.conn);
 conn.participantsUpdate = handler.participantsUpdate.bind(global.conn);
 conn.groupsUpdate = handler.groupsUpdate.bind(global.conn);
