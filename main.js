@@ -20,7 +20,6 @@ import {Low, JSONFile} from 'lowdb'
 import store from './lib/store.js'
 import readline from 'readline'
 import NodeCache from 'node-cache' 
-import { gataJadiBot } from './plugins/jadibot.js';
 import pkg from 'google-libphonenumber'
 const { PhoneNumberUtil } = pkg
 const phoneUtil = PhoneNumberUtil.getInstance()
